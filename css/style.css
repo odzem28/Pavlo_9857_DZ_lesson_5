@@ -77,10 +77,10 @@ color: rgb(70, 52, 52);
 }
 .position .text {
 	color: gold;
-	font-style: 10px;
+	font-size: 10px;
 }
 .position__text{
-	font-style: 10px;
+	font-size: 10px;
 	line-height: 2;
 }
 .paragraph__1 > p{
