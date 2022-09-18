@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rowdies:wght@700&display=swap");
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff") format("woff"), url('../fonts/Larsseit-Medium.woff') format('woff'), url('../fonts/Larsseit-Italic.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+body{
+	font-family: "lato", serif;
+	font-size: 20px;
+}
+
+div {
+color: rgb(70, 52, 52);
+}
+.introduction p{
+	color: blueviolet
+}
+.introduction__text{
+	font-family: "roboto", sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: justify;
+	text-transform: capitalize;
+}
+.content h1{
+	color: red
+}
+.title{
+	font-family: "roboto", cursive;
+	font-style: italic;
+	font-weight: 300;
+	text-align: left;
+	text-shadow: 3px 2px 4px #000;
+	text-transform: uppercase;
+}
+.content__paragraf{
+	font-family: "lato", fantasy;
+	font-style: oblique;
+	font-weight: 400;
+	text-align: center;
+	text-transform: lowercase;
+}
+.content li{
+	color: rgb(48, 180, 59)
+}
+.paragraf__list1{
+	font-family: "lato", monospace;
+	font-weight: 500;
+	text-align: right;
+	text-transform: none;
+	letter-spacing: 8px;
+}
+.paragraf__list2{
+	font-family: "lato", monospace;
+	font-weight: 600;
+	text-decoration: line-through;
+}
+.paragraf__list3{
+	font-family: "lato", monospace;
+	font-weight: 700;
+	text-decoration: overline;
+}
+.paragraf__list4{
+	font-family: "lato", monospace;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.content p{
+	color: rgb(59, 105, 59);
+
+}
+.position{
+	color: rgb(253, 92, 92)
+}
+.position .text {
+	color: gold;
+	font-style: 10px;
+}
+.position__text{
+	font-style: 10px;
+	line-height: 2;
+}
+.paragraph__1 > p{
+	color: aqua;
+}
+.paragraph__2 .text2 ~ p{
+	color: blue
+}
+div .text3 + p{
+	color: rgb(180, 71, 71)
+}
+.paragraph__4 .text4.lesson{
+color: darkslateblue
+}
+.paragraph__winter1{
+	text-indent: 20px;
+}
+.paragraph__winter2{
+	white-space: nowrap;
+}
+.paragraph__winter__title{
+	word-spacing: 20px;
+}
+
+.paragraph__1{
+	box-sizing: content-box;
+	padding: 40px;
+	width: 400px;
+}
+
+.paragraph__2{
+	box-sizing: border-box;
+	margin: 70px;
+}
